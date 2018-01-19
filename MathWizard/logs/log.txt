@@ -4,3 +4,15 @@ GLES3: max ubo reflections: 455, ubo size: 144
 ARVR: Registered interface: Native mobile
 **ERROR**: Error opening file: res://icon.png
    At: core/io/image_loader.cpp:54:load_image() - Error opening file: res://icon.png
+[Area2D:987]
+nope
+[Area2D:987]
+nope
+[Area2D:987]
+nope
+[Area2D:987]
+Uh signal
+[Area2D:987]
+Uh signal
+[Area2D:987]
+Uh signal

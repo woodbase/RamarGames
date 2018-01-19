@@ -59,7 +59,7 @@ _sections_unfolded = [ "Transform" ]
 
 position = Vector2( 510, 167 )
 scale = Vector2( 0.2, 0.2 )
-_sections_unfolded = [ "Transform" ]
+_sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="Coins" type="Node" parent="."]
 

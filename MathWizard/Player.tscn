@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Player.gd" type="Script" id=1]
 [ext_resource path="res://Other/elephant.png" type="Texture" id=2]
@@ -8,11 +8,6 @@
 custom_solver_bias = 0.0
 radius = 146.545
 
-[sub_resource type="CircleShape2D" id=2]
-
-custom_solver_bias = 0.0
-radius = 142.712
-
 [node name="Player" type="KinematicBody2D"]
 
 input_pickable = false
@@ -20,6 +15,7 @@ collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
+_sections_unfolded = [ "Collision" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -44,8 +40,9 @@ shape = SubResource( 1 )
 
 texture = ExtResource( 2 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
 
-shape = SubResource( 2 )
+position = Vector2( 0, -7 )
+shape = SubResource( 1 )
 
 
